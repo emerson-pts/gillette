@@ -1,0 +1,40 @@
+#authMessage, .message_info, .message_success, .message_warning, .message_error, .message_validation, .message_alert {
+    border: 1px solid;
+    margin: 10px 0px;
+	font-size:13px;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.message_info ul, .message_success ul, .message_warning ul, .message_error ul, .message_validation ul, .message_alert ul{
+	list-style-type: disc;
+	margin: 3px 30px;
+}
+
+.message_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+    background-image: url('../img/messages/ico_info.png');
+}
+.message_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image:url('../img/messages/ico_success.png');
+}
+.message_alert, .message_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('../img/messages/ico_alert.png');
+}
+.message_error, #authMessage{
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('../img/messages/ico_error.png');
+}
+
+/*.input label{
+	font-size:14px;
+	color:#8AB9D6;
+}
+*/

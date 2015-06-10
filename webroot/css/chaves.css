@@ -1,0 +1,126 @@
+.chaves-grupos li{
+	float: left;
+	background: #FF8300;
+	text-align: center;
+	display: block;
+	margin-right: 4px;
+	height: 24px;
+	line-height: 24px;
+}
+
+.chaves-grupos li a{
+	color: #FFF;
+	font-size: 14px;
+	display: block;
+}
+
+.chave-grupo-atual{
+	color: #FF8300;
+	margin: 25px 0 18px 0;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.chaves-wrap{
+	overflow: hidden;
+	width: 825px;
+}
+
+.chaves-container{
+	overflow: visible;
+	width: 99999px;
+}
+
+table.chaves{
+}
+
+table.chaves tr th{
+	background: url('../img/chaves-rodada-decoration.png') bottom right no-repeat;
+	color: #244a23;
+	padding-bottom: 12px;
+	font-weight: bold;
+	width: 270px;
+	cursor: pointer;
+}
+
+table.chaves tr td{
+	vertical-align: top;
+}
+
+table.chaves tr td.spacer{
+	width: 7px;
+}
+
+div.chave-jogo-space{
+	height: 17px;
+}
+
+table.chaves.jogadores-2 div.chave-jogo-space{
+	height: 26px;
+}
+
+
+div.chave-jogo{
+	border-left: 8px solid #E6E6E6;
+	padding: 6px 0 2px 0;
+}
+
+div.chave-jogo.jogadores-1.final{
+	margin-top: 10px;/* a soma desta margem e do div.chave-jogo.final div.chave-jogador-divider deve ser igual a altura da chave do jogador*/
+}
+
+table.chaves.jogadores-2 div.chave-jogo.final{
+	margin-top: 10px;/* a soma desta margem e do div.chave-jogo.final div.chave-jogador-divider deve ser igual a altura da chave do jogador*/
+}
+
+div.chave-jogador-1, div.chave-jogador-2{
+	overflow: hidden;
+	height: 18px;
+	font-size: 13px;
+	padding-left: 5px;
+	color: #747171;
+}
+
+div.chave-jogador-1{
+}
+
+div.chave-jogador-2{
+}
+
+div.chave-jogador-divider{
+	background: url('../img/chaves-jogador-divider.png') center left repeat-x;
+	height: 24px;
+	overflow: hidden;
+	text-align: right;
+	color: #747171;
+}
+
+div.chave-jogo.final div.chave-jogador-divider{
+	background: none;
+	margin-bottom: 18px;/* a soma desta margem e do div.chave-jogo.final deve ser igual a altura da chave do jogador*/ 
+}
+
+div.chave-jogador-cabeca{
+	font-weight: bold;
+}
+
+td.chaves-rodada-back, td.chaves-rodada-next{
+	width: 20px;
+}
+
+td.chaves-rodada-back{
+	background: url('../img/chaves-rodada-back.png') top left repeat-y;
+}
+
+td.chaves-rodada-next{
+	background: url('../img/chaves-rodada-next.png') top left repeat-y;
+}
+
+td.chaves-rodada-back.hover, td.chaves-rodada-next.hover{
+	background-position: top right;
+	cursor: pointer;
+}
+
+td.chaves-rodada-back-space, td.chaves-rodada-next-space{
+	width: 12px;
+}

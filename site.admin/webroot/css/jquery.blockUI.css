@@ -1,0 +1,25 @@
+div.growlUIsuccess { background: url(../img/admin/Ok-icon.png) no-repeat 10px 5px }
+div.growlUIerror { background: url(../img/admin/Close-2-icon.png) no-repeat 10px 5px }
+div.growlUI {
+	min-height: 55px;
+}
+
+div.growlUI h1, div.growlUI h2 {
+	color: white; 
+	padding: 5px 5px 5px 75px; 
+	text-align: 	left;
+	font-family:	'trebuchet ms',verdana,arial;
+	font-style:		normal;
+}
+div.growlUI b{
+	font-weight:120%;
+}
+
+div.growlUI h1{
+	font-size:		18px;
+	font-weight:	bold;
+}
+div.growlUI h2{
+	font-size:		16px;
+	font-weight:	400;
+}

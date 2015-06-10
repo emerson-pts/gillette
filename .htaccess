@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    
+	#idioma
+	#RewriteCond %{HTTPS} =on
+	#RewriteRule .* - [env=ps:https]
+	#RewriteCond %{HTTPS} !=on
+	#RewriteRule .* - [env=ps:http]
+	#RewriteCond    %{HTTP_HOST} !^(www|spa)\.
+    #RewriteRule    .*	%{ENV:ps}://www.%{SERVER_NAME}%{REQUEST_URI}    [R=301,L]
+
+    RewriteRule    ^$    webroot/    [L]
+    RewriteRule    (.*) webroot/$1    [L]
+ </IfModule>

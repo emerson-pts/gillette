@@ -1,0 +1,5 @@
+div#boletins a{width:204px;height:180px;display:block;float:left;margin:10px}
+div#boletins small{color:#234a23;font-size:10px}
+div.miniatura{background-color:#e6e6e6;width:204px;height:144px;line-height:144px;display:block;text-align:center;}
+div.miniatura img{margin: 7px;-moz-box-shadow: 5px 5px 3px #aaa;-webkit-box-shadow: 5px 5px 3px #aaa;box-shadow: 5px 5px 3px #aaa;}
+.last{margin-right:0px !important}

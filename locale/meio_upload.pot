@@ -1,0 +1,104 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2011-06-22 00:46-0300\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /models/behaviors/meio_upload.php:192
+msgid "This field has not been defined between the parameters of MeioUploadBehavior."
+msgstr ""
+
+#: /models/behaviors/meio_upload.php:195
+msgid "The directory where the file would be placed there or is protected against writing."
+msgstr ""
+
+#: /models/behaviors/meio_upload.php:198
+msgid "The file can not be empty."
+msgstr ""
+
+#: /models/behaviors/meio_upload.php:201
+msgid "There were problems in uploading the file."
+msgstr ""
+
+#: /models/behaviors/meio_upload.php:204
+msgid "The maximum file size (%s) is exceeded."
+msgstr ""
+
+#: /models/behaviors/meio_upload.php:207
+msgid "Invalid file type."
+msgstr ""
+
+#: /models/behaviors/meio_upload.php:210
+msgid "Invalid file extension."
+msgstr ""
+
+#: /models/behaviors/meio_upload.php:213
+msgid "Image width is smaller than minimum allowed (%s pixels)."
+msgstr ""
+
+#: /models/behaviors/meio_upload.php:216
+msgid "Image height is smaller than minimum allowed (%s pixels)."
+msgstr ""
+
+#: /models/behaviors/meio_upload.php:219
+msgid "Image width is larger than maximum allowed (%s pixels)."
+msgstr ""
+
+#: /models/behaviors/meio_upload.php:222
+msgid "Image height is larger than maximum allowed (%s pixels)."
+msgstr ""
+
+#: /models/behaviors/meio_upload.php:225
+msgid "Image aspect ratio (width/height: %s) of image is not allowed."
+msgstr ""
+
+#: /models/behaviors/meio_upload.php:261
+msgid "MeioUploadBehavior Error: The field \"%s\" doesn't exists in the model \"%s\"."
+msgstr ""
+
+#: /models/behaviors/meio_upload.php:267
+msgid "MeioUploadBehavior Error: The default option must be the filename with extension."
+msgstr ""
+
+#: /models/behaviors/meio_upload.php:276
+msgid "MeioUploadBehavior Error: The thumbsizes names must be alphanumeric."
+msgstr ""
+
+#: /models/behaviors/meio_upload.php:438
+msgid "MeioUploadBehavior Error: The field \"%s\" wasn't declared as part of the MeioUploadBehavior in model \"%s\"."
+msgstr ""
+
+#: /models/behaviors/meio_upload.php:465
+msgid "MeioUploadBehavior Error: The directory %s does not exist and cannot be created."
+msgstr ""
+
+#: /models/behaviors/meio_upload.php:469
+msgid "MeioUploadBehavior Error: The directory %s does not exist."
+msgstr ""
+
+#: /models/behaviors/meio_upload.php:476
+msgid "MeioUploadBehavior Error: The directory %s isn't writable."
+msgstr ""
+
+#: /models/behaviors/meio_upload.php:1154
+msgid "MeioUploadBehavior Error: The max_size option format is invalid."
+msgstr ""
+
+#: /models/behaviors/meio_upload.php:1167
+msgid "MeioUploadBehavior Error: The max_size unit is invalid."
+msgstr ""
+
+#: /models/behaviors/meio_upload.php:1296
+msgid "Problems in the copy of the file."
+msgstr ""
+
